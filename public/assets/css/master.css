@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f8f9fa!important;
+    height: 465vh;
+}
+
+/*Navbar*/
+
+.navbar{
+  box-shadow: 1px 0px 7px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 1px 0px 7px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 0px 7px 3px rgba(0,0,0,0.2);
+}
+
+.nav-item .nav-link{
+    color: #3f5aff;
+    font-weight:lighter;
+}
+
+.nav-item .nav-link:hover{
+    color: #ff8215;
+    font-weight: bold;
+}
+  
+.bookingsekarang{
+  font-weight: bold;
+  color: #f8f9fa !important;
+  font-size: 13px;
+  text-shadow: 0px 0px 0px #3F5AFF;
+  box-shadow: 0px 0px 0px #BEE2F9;
+  padding: 6px 20px !important;
+  border-radius: 20px;
+  border: 0px solid #3866A3;
+  background: #3F5AFF !important;
+  text-decoration: none;
+}
+.bookingsekarang:hover {
+  color: #FFFCFC !important;
+  background: #1E2B7A!important;
+}
+
+/*Home*/
+
+.home{
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.carousel-inner>.item>img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    line-height: 1;
+    width: 100%; 
+}
+
+.container .text.first-text{
+    color:#343a40;
+}
+
+.home h4{
+    color: #ff8215!important;
+    margin-top: 30px;
+}
+
+.first-text{
+    font-size: 2.8vw;
+    color:#343a40;
+}
+
+.sec-text{
+    font-size: 2.8vw;
+    font-weight: bold;
+    color: #3f5aff;
+}
+
+.blob{
+    align-items: center;
+    width: 90%;    
+    z-index: 0;
+}
+
+/* About */
+
+.about {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.about img{
+    margin: auto;
+}
+
+
+.about p{
+    text-align: justify;
+    line-height: 42px;
+}
+
+/* Paket */
+  /* .swiper {
+    width: auto;
+    height: 20%;
+    border-radius: 20px;
+    box-shadow: 11px 14px 17px -1px rgba(29,29,29,0.4);
+-webkit-box-shadow: 11px 14px 17px -1px rgba(29,29,29,0.4);
+-moz-box-shadow: 11px 14px 17px -1px rgba(29,29,29,0.4);
+  }
+
+  .swiper-slide {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+  
+  .swiper-pagination .swiper-pagination-bullets{
+    margin-top: 20px;
+  }
+
+  .swiper-slide{
+    position: relative;
+    border-radius: 20px;
+  }
+
+  .swiper-slide::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(51, 51, 51));
+    opacity: .6;
+    border-radius: 20px;
+
+  }
+
+  .swiper-slide h5{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    color: #f8f9fa;
+    z-index: 2;
+  }
+  .swiper-slide P{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: #f8f9fa;
+    z-index: 2;
+    margin-top: 80px;
+  }
+
+
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  } */
+
+  .paket{
+    height: auto;
+  }
+
+  .paket .mobil{
+    position: relative;
+    border: none;
+    margin-top: 10px;
+    border-radius: 40px;
+    background-color: transparent;
+    margin-bottom: 50px;
+  }
+
+  .paket .mobil:hover{
+    transition-duration: 0.5s;
+    transition-property: transform;
+    box-shadow: 1px 0px 7px 3px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 1px 0px 7px 3px rgba(0, 4, 255, 0.3);
+    -moz-box-shadow: 1px 0px 7px 3px rgba(0,0,0,0.3);
+    transition-timing-function: ease;
+  }
+
+  .paket .mobil ul li{
+    background-color: transparent;
+  }
+  
+  .paket .mobil img{
+    padding: 20px;
+  }
+
+
+  .paket .mobil .harga{
+    color:#ff8215;
+    font-weight: bold;
+  }
+
+  .paket .mobil h3{
+    font-weight: bold;
+  }
+
+  .paket .mobil .kapasitas{
+    color: #3f5aff;
+    font-weight: bold;
+  }
+
+  .paket .mobil .badge{
+    margin-left: 15px;
+  }
+
+  .paket .trip{
+    border-radius: 40px;
+    border: none;
+    transition-duration: 0.5s;
+    transition-property: transform;
+    box-shadow: 1px 0px 7px 3px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 1px 0px 7px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 0px 7px 3px rgba(0,0,0,0.3);
+  }
+
+  .paket .trip img{
+    border-radius: 40px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .paket .trip:hover{
+    transform: translate(0px, -5px);
+    transition-timing-function: ease;
+  }
+
+  .paket .card-footer a{
+    border-radius: 40px;
+  }
+
+  .card-title{
+    font-weight: bold;
+  }
+
+  .detail .deskripsi{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+            line-clamp: 10; 
+    -webkit-box-orient: vertical;
+  }
+
+  /*Kontak*/
+  #kontak{
+    margin-bottom: 100px;
+  }
+
+  .kontak h2{
+    margin-top: 100px;
+  }
+
+  
+
